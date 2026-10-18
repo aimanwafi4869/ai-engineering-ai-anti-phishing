@@ -6,7 +6,7 @@ Modern security teams and enterprise users face a rapidly escalating volume of s
 
 ## Evidence of the Problem
 - Phishing as the Primary Breach Vector: Phishing and social engineering account for 62% of corporate breaches involving the human element, with a single phishing-initiated data breach costing organizations an average of $4.8 million (Source: IBM Cost of a Data Breach Report / Verizon Data Breach Investigations Report).<br>
-SafeToOpen Research. (2026, July 5). Phishing statistics 2026: The key numbers, sourced. SafeToOpen. Safetoopen.Com. https://safetoopen.com/en/resources/phishing-statistics-2026/
+Source: SafeToOpen Research. (2026, July 5). Phishing statistics 2026: The key numbers, sourced. SafeToOpen. Safetoopen.Com. https://safetoopen.com/en/resources/phishing-statistics-2026/
 
 - Inefficacy of Static Blocklists Against Rapid Takedowns: Over 1.06 million new phishing attacks were recorded in Q2 2026 alone, with modern malicious lookalike domains staying live for an average of just 12 hours—a lifecycle window far too short for traditional database blocklists to index and update<br>
 Source: Anti-Phishing Working Group (APWG) / BlackBerry Global Threat Intelligence Report). (SecureSlate Team. (2026, October 5). Phishing statistics 2026: Sourced numbers and what they mean for your controls. SecureSlate. https://getsecureslate.com/blog/phishing-statistics
@@ -14,7 +14,7 @@ Source: Anti-Phishing Working Group (APWG) / BlackBerry Global Threat Intelligen
 ## Initial Related Work / Existing Approaches
 - Blacklist-Based Domain Filtering (e.g., Google Safe Browsing / PhishTank API): Relies on centralized databases of known malicious URLs to block traffic.<br>
 Key Limitation: High false-negative rate against zero-day phishing sites because newly generated malicious domains stay active for hours before being indexed and reported.<br>
-Akshaya Arun. (2026). Next Generation of Phishing Attacks using AI powered Browsers. 2406.12547V1. Scribd. https://www.scribd.com/document/940515654/2406-12547v1
+Source: Akshaya Arun. (2026). Next Generation of Phishing Attacks using AI powered Browsers. 2406.12547V1. Scribd. https://www.scribd.com/document/940515654/2406-12547v1
 - Client-Side Browser Extension Machine Learning Models: Runs lightweight classification models directly within the user's browser extension to evaluate page DOM elements and URLs.<br>
 Key Limitation: Highly vulnerable to client-side bypasses (e.g., attackers disabling scripts), introduces browser performance latency, and fails to inspect encrypted raw socket traffic prior to full page rendering.<br>
 Source: Wenhao Li. (December 2024). A State-of-the-art Review on Phishing Website Detection Techniques. ResearchGate. https://www.researchgate.net/publication/386849281_A_State-of-the-art_Review_on_Phishing_Website_Detection_Techniques
