@@ -11,7 +11,7 @@ Modern security teams and enterprise users face a rapidly escalating volume of s
 
 ## Initial Related Work / Existing Approaches
 - Blacklist-Based Domain Filtering (e.g., Google Safe Browsing / PhishTank API): Relies on centralized databases of known malicious URLs to block traffic.
-Key Limitation: High false-negative rate against zero-day phishing sites because newly generated malicious domains stay active for hours before being indexed and reported.
+-- Key Limitation: High false-negative rate against zero-day phishing sites because newly generated malicious domains stay active for hours before being indexed and reported.
 (Akshaya Arun. (2026). Next Generation of Phishing Attacks using AI powered Browsers. 2406.12547V1. Scribd. https://www.scribd.com/document/940515654/2406-12547v1)
 - Client-Side Browser Extension Machine Learning Models: Runs lightweight classification models directly within the user's browser extension to evaluate page DOM elements and URLs.
 Key Limitation: Highly vulnerable to client-side bypasses (e.g., attackers disabling scripts), introduces browser performance latency, and fails to inspect encrypted raw socket traffic prior to full page rendering.
