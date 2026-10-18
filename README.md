@@ -27,7 +27,7 @@ Source: CaptainDNS. (2026, February 16). CaptainDNS. CaptainDNS. https://www.cap
 - O2: To integrate an AI models that can evaluates incoming requests against context-aware, and structural threat patterns to identify phishing sites.
 
 ## Target Users
-- Enterprise Security Operations Center (SOC) Teams & Network Administrators
+- Enterprise Security Operations Center (SOC) Teams & Network Administrators<br>
 IT administrators who require centralized network-level inline interception to enforce phishing defenses without installing agent software across managed endpoints.
 
 ## Data Sources
